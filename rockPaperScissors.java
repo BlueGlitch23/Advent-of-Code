@@ -7,7 +7,7 @@ public class rockPaperScissors
       Scanner f = new Scanner(new File("rpsGuide"));
       int score=0;
       
-      List<String> guideList = new ArrayList<String>();
+      List<String> guideList = new ArrayList<String>(); 
       
       while(f.hasNext()) 
       { 
